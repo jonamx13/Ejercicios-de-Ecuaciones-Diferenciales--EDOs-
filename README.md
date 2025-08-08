@@ -8,9 +8,9 @@ Implementación en GNU Octave de métodos numéricos para la solución de proble
 
 | Problema                 | Descripción                                                                                                                                                                                                                                                                                                                                                                                                 |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **`Problema_25_1.m`**    | Resuelve analíticamente el problema de valores iniciales: <br><br> \(\frac{dy}{dx} = yx^2 - 1.1y,\quad y(0) = 1\) <br> Calcula la solución exacta y la grafica en el intervalo \(0 \leq x \leq 2\).                                                                                                                                                                                                                                                |
-| **`Problema_25_2.m`**    | Resuelve el mismo problema del **Problema_25_1** pero aplicando el **método de Euler** con \(h = 0.5\) y \(h = 0.25\), comparando los resultados con la solución analítica. <br> Grafica las tres curvas (exacta y aproximaciones) en un mismo plano para análisis visual del error.                                                                                                                                                                |
-| **`Problema_25_11.m`**   | Resuelve el sistema: <br><br> \(\frac{dy}{dx} = -2y + 4e^{-x}\) <br> \(\frac{dz}{dx} = -\frac{y z^2}{3}\) <br> con \(y(0) = 1\), \(z(0) = 2\), \(h = 0.25\) y \(0 \leq x \leq 2\). <br><br> Aplica: <br> a) Método de Euler <br> b) Método de Runge-Kutta de cuarto orden <br> Muestra tablas comparativas en consola y grafica la evolución de \(y(x)\) y \(z(x)\) para ambos métodos. |
+| **`Problema_25_1.m`**    | Resuelve analíticamente el problema de valores iniciales: <br><br> $$\frac{dy}{dx} = yx^2 - 1.1y,\quad y(0) = 1$$ <br> Calcula la solución exacta y la grafica en el intervalo $0 \leq x \leq 2$.                                                                                                                                                                                                                                                |
+| **`Problema_25_2.m`**    | Resuelve el mismo problema del **Problema_25_1** pero aplicando el **método de Euler** con $h = 0.5$ y $h = 0.25$, comparando los resultados con la solución analítica. <br> Grafica las tres curvas (exacta y aproximaciones) en un mismo plano para análisis visual del error.                                                                                                                                                                |
+| **`Problema_25_11.m`**   | Resuelve el sistema: <br><br> $$\frac{dy}{dx} = -2y + 4e^{-x}$$ <br> $$\frac{dz}{dx} = -\frac{y z^2}{3}$$ <br> con $y(0) = 1$, $z(0) = 2$, $h = 0.25$ y $0 \leq x \leq 2$. <br><br> Aplica: <br> a) Método de Euler <br> b) Método de Runge-Kutta de cuarto orden <br> Muestra tablas comparativas en consola y grafica la evolución de $y(x)$ y $z(x)$ para ambos métodos. |
 
 ---
 
@@ -35,23 +35,33 @@ Problema_25_11
 
 ---
 
-
 ## 📈 Resultado
+
 Cada script mostrará en consola y/o en gráficas los resultados de la solución exacta y las aproximaciones numéricas según el método utilizado.
 
 ---
+
 ## 📊 Visualización
+
 ### - Problema_25_1
+
+<img width="499" height="474" alt="image" src="https://github.com/user-attachments/assets/280fd452-daa6-4f08-a14a-c05a017208e6" />
 
 ### - Problema_25_2
 
+<img width="626" height="594" alt="image" src="https://github.com/user-attachments/assets/3f358daa-db88-4fd9-9def-475ba34f0195" />
+
 ### - Problema_25_11
+
+<img width="480" height="470" alt="image" src="https://github.com/user-attachments/assets/ad4ff5cf-b122-4cd3-99ee-fdb3a5a0c0f2" />
+
 
 ---
 
 ## 🧾 Créditos
+
 - **Materia:** Métodos Numéricos
 - **Asesor:** Claudio Hiram Carmona Jurado
 - **Alumno:** Jonathan Eduardo Olivas Meixueiro
 - **Matricula:** 240694
-- **Fecha de entrega:** 08/Agosto/2025# Ejercicios-de-Ecuaciones-Diferenciales--EDOs-
+- **Fecha de entrega:** 08/Agosto/2025
